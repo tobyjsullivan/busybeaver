@@ -70,6 +70,26 @@
            		text-decoration: none;
            		color: inherit;
            }
+           
+           div.info-base-wrapper {
+           	background-color: #fff;
+           }
+           
+           div.box {border-radius: 4px;
+-webkit-box-shadow: 0 2px 3px 0 #dddddd;
+-moz-box-shadow: 0 2px 3px 0 #dddddd;
+box-shadow: 0 2px 3px 0 #dddddd;
+border: 1px solid #BBB;
+background-color: #FFF;
+padding: 1em;
+margin-top: 1em;}
+
+.question-response {
+width: 160px;
+margin: auto;
+height: 120px;
+padding-top: 40px;
+}
         </style>
     </head>
     
@@ -79,23 +99,28 @@
                 <h1 class="pull-left medium-100 small-100">
                     <a href="index.html">Busy Beaver Software</a><small>Custom business solutions</small>
                 </h1>
-                <nav class="ink-navigation pull-right medium-100 small-100 rounded">
-                    <ul class="menu horizontal black shadowed">
-                        <li><a href="index.html">Introduction</a></li>
-                        <li class="active"><a href="contact.html">Request a Quote</a></li>
+                <nav class="ink-navigation pull-right medium-100 small-100">
+                    <ul class="menu horizontal black shadowed rounded">
+                        <li class="active"><a href="index.html">Introduction</a></li>
+                        <li><a href="contact.html">Request a Quote</a></li>
                         <li><a href="contact.html">Contact Us</a></li>
                     </ul>
                 </nav>               
             </header>
             <div class="column-group gutters">
-                <div class="large-25 medium-25 hide-small">
-                </div>
-                <div class="large-50 medium-50 small-100 vertical-space">
-                    <h3>Contact Us</h3>
- 	              	<p><strong>Please include any available information about your project in your message if you are requesting a quote.</strong></p>
-                    <p>Toll-Free (866) 424-0746 or International +1-778-654-0404</p>
-                    <p>Email <a href="mailto:hello@busybeaversoftware.com">hello@busybeaversoftware.com</a></p>
-                </div>
+                <div class="large-100 medium-100 small-100 content-center vertical-space">
+                <div class="box">
+                	<h3 class="vertical-space">Are you looking for custom software for your business?</h3>
+                	
+                	<nav class="ink-navigation question-response vertical-space">
+                	<ul class="pills green shadowed rounded">
+                		<li><a href="want-custom-software.html">YES</a></li>
+                		<li><a href="index.html#no">NO</a></li>
+                	</ul>
+                	</nav>
+                	<h3 class="vertical-space"><small>Click YES to learn about your options</small></h3>
+                	</div>
+				</div>
             </div>
         </div>
         <footer>
@@ -112,5 +137,6 @@
 		        </ul>
 		    </nav>
 		</footer>
+		
     </body>
 </html>
